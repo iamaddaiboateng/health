@@ -140,6 +140,7 @@ class _HomePageState extends State<HomePage> {
                       Row(
                         children: const [
                           CircleAvatar(
+                            backgroundImage: AssetImage("images/placehold.png"),
                             radius: 8,
                           ),
                           SizedBox(
@@ -228,7 +229,9 @@ class _HomePageState extends State<HomePage> {
                   ),
                 ),
                 const ListTile(
-                  leading: CircleAvatar(),
+                  leading: CircleAvatar(
+                    backgroundImage: AssetImage("images/placehold.png"),
+                  ),
                   title: Text(
                     "Jane Cooper",
                     style: TextStyle(
